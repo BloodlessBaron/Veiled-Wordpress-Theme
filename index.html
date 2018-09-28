@@ -65,12 +65,32 @@ For more information, please refer to <http://unlicense.org/>
     }
 
     #wrapper {
-      width: 25em;
+      width: 30em;
       margin: 0 auto;
       margin-top: 2em;
-      padding: 1em;
+    }
+
+    #header {
+      width: auto;
+      text-align: center;
+      text-shadow: 1px 0px 0px #290973 , 0px 1px 0px #290973, -1px 0px 0px #290973, 0px -1px 0px #290973, 1px 1px 1px #290973;
+    }
+
+    #content {
+      width: auto;
       background: #0D0225 url(images/background2.jpg);
       border: 2px solid #23032E;
+      text-align: center;
+      padding: 1em;
+    }
+
+    #footer {
+      color: #595959;
+      font-family: "Lucida Console", Monaco, monospace;
+      font-size: x-small;
+      text-align: center;
+      width: auto;
+      text-shadow: 1px 0px 0px #000 , 0px 1px 0px #000, -1px 0px 0px #000, 0px -1px 0px #000, 1px 1px 1px #000;
     }
 
     .paragraph {
@@ -85,22 +105,31 @@ For more information, please refer to <http://unlicense.org/>
 </head>
 <body>
 <div id="wrapper">
-  <p class="paragraph">Welcome! You've reached the landing page for my personal site, wayward traveller. Choose now
-  the path you will take in this, your journey beyond the veil of the banal.</p>
-  <hr>
-  <p class="paragraph">You might take the path that <a href="https://veiled.xyz/blog">leads to my journals</a>, my personal accounting of my own
-  travels in this strange and sometimes perilous web of information they call the Internet.</p>
-  <p class="paragraph"></p>
-  <hr>
-  <p class="paragraph">Or you might decide to <a href="https://gitlab.com/BloodlessBaron">peruse my tomes of knowledge</a>, the arcane texts I have developed
-  over the years. With the correct instruments, these modest tools of thaumaturgy might allow you to perform
-  works that will astound the ignorant minds of the masses.</p>
-  <hr>
-  <p class="paragraph">Another path you could take is to <a href="#">view the myriad pieces of artwork</a> I have created.
-  While I have no great skill, I am proud of them, and hope you will find them pleasing to the eyes as I do.</p>
-  <hr>
-  <p class="paragraph">Finally, if you must contact me, and have access to enchanted mail, you might <a href="mailto:bloodlessbaron@protonmail.com">send me
-  a scroll with your query</a>, and I will respond to you as soon as I am able to.</p>
+  <div id="header">
+    <p>Veiled Beyond Banality</p>
+  </div>
+  <div id="content">
+    <p class="paragraph">Welcome! You've reached the landing page for my personal site, wayward traveller. Choose now
+    the path you will take in this, your journey beyond the veil of the banal.</p>
+    <hr>
+    <p class="paragraph">You might take the path that <a href="https://veiled.xyz/blog">leads to my journals</a>, my personal accounting of my own
+    travels in this strange and sometimes perilous web of information they call the Internet.</p>
+    <p class="paragraph"></p>
+    <hr>
+    <p class="paragraph">Or you might decide to <a href="https://gitlab.com/BloodlessBaron">peruse my tomes of knowledge</a>, the arcane texts I have developed
+    over the years. With the correct instruments, these modest tools of thaumaturgy might allow you to perform
+    works that will astound the ignorant minds of the masses.</p>
+    <hr>
+    <p class="paragraph">Another path you could take is to <a href="#">view the myriad pieces of artwork</a> I have created.
+    While I have no great skill, I am proud of them, and hope you will find them pleasing to the eyes as I do.</p>
+    <hr>
+    <p class="paragraph">Finally, if you must contact me, and have access to enchanted mail, you might <a href="mailto:bloodlessbaron@protonmail.com">send me
+    a scroll with your query</a>, and I will respond to you as soon as I am able to.</p>
+  </div>
+
+  <div id="footer">
+    <p>&copy; 2018 Juan Montellano. Some rights are reserved.</p>
+  </div>
 </div>
 </body>
 </html>
