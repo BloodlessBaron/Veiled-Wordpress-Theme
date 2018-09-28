@@ -1,0 +1,124 @@
+/*!
+Theme Name: Veiled Beyond Banality
+Theme URI: http://underscores.me/
+Author: Juan Montellano
+Author URI: https://veiled.xyz
+Description: Originally made for my personal site
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: veiled
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Veiled Beyond Banality is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+body {
+  background: #0D0225 url(images/background.jpg);
+  color: #FFF;
+  margin: 0 auto;
+  font-family: 'Berkshire Swash', cursive;
+  text-shadow: 1px 0px 0px #530370 , 0px 1px 0px #530370, -1px 0px 0px #530370, 0px -1px 0px #530370, 1px 1px 1px #530370;
+}
+
+a,a:visited {
+  color: #FFF;
+  text-decoration: none;
+  border-bottom: 1px dotted #C0C0C0;
+  text-shadow: 1px 0px 0px #0A2172 , 0px 1px 0px #0A2172, -1px 0px 0px #0A2172, 0px -1px 0px #0A2172, 1px 1px 1px #0A2172;
+}
+
+a:hover {
+  border-bottom: 1px solid #FFF;
+}
+
+hr {
+  width: 15em;
+}
+
+p {
+  text-indent: 1em;
+  text-align: center;
+}
+
+p::first-letter {
+  font-size: 2em;
+}
+
+#wrapper {
+  width: 70em;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+#leftbar,#rightbar {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: x-small;
+}
+
+#leftbar ul,#rightbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#leftbar a .nav,#rightbar a .nav {
+  text-shadow: none;
+  color: #FFF;
+}
+
+#leftbar p::first-letter,#rightbar p::first-letter {
+  font-size: 1.5em;
+}
+
+#leftbar {
+  float: left;
+  width: 20em;
+  margin-top: 6em;
+  margin-right: 1em;
+  text-align: right;
+}
+
+#rightbar {
+  float: left;
+  width: 20em;
+  margin-top: 6em;
+  margin-left: 1em;
+  text-align: left;
+}
+
+#centerwrap {
+  float: left;
+  width: 30em;
+}
+
+#header {
+  width: auto;
+  text-align: center;
+  text-shadow: 1px 0px 0px #290973 , 0px 1px 0px #290973, -1px 0px 0px #290973, 0px -1px 0px #290973, 1px 1px 1px #290973;
+}
+
+#content {
+  background: #0D0225 url(images/background2.jpg);
+  border: 2px solid #23032E;
+  text-align: center;
+  padding: 1em;
+}
+
+#footer {
+  clear: both;
+  color: #595959;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: x-small;
+  text-align: center;
+  width: 30em;
+  margin: 0 auto;
+  padding-top: 1em;
+  text-shadow: 1px 0px 0px #000 , 0px 1px 0px #000, -1px 0px 0px #000, 0px -1px 0px #000, 1px 1px 1px #000;
+}
