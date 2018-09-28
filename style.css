@@ -115,6 +115,10 @@ hr {
   text-shadow: 1px 0px 0px #290973 , 0px 1px 0px #290973, -1px 0px 0px #290973, 0px -1px 0px #290973, 1px 1px 1px #290973;
 }
 
+#header h1 {
+  margin: 0;
+}
+
 #content {
   background: #0D0225 url(images/background2.jpg);
   border: 2px solid #23032E;
