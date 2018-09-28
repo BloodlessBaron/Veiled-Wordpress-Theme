@@ -5,7 +5,8 @@
   </div>
   <div id="centerwrap">
     <div id="header">
-      <p><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a><br><?php echo get_bloginfo( 'description' ); ?></p>
+      <h1><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+      <?php echo get_bloginfo( 'description' ); ?>
     </div>
     <div id="content">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
@@ -15,7 +16,7 @@
       endwhile; endif; ?>
     </div>
     <div id="footer">
-      <?php get_footer('copy'); ?>
+      <p class="footer-copy"><?php get_footer('copy'); ?></p>
     </div>
   </div>
   <div id="rightbar">
