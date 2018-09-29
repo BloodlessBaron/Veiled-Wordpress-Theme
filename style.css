@@ -24,7 +24,6 @@ body {
   background: #0D0225 url(images/background.jpg);
   color: #FFF;
   font-family: 'Berkshire Swash', cursive;
-  text-shadow: 1px 0px 0px #530370 , 0px 1px 0px #530370, -1px 0px 0px #530370, 0px -1px 0px #530370, 1px 1px 1px #530370;
 }
 
 a,a:visited {
@@ -125,9 +124,18 @@ hr {
   margin: 0;
 }
 
+#content h2 a {
+  border-bottom: none;
+}
+
+#content h2 a:hover {
+  border-bottom: 1px solid #FFF;
+}
+
 #content p {
   text-align: center;
   text-indent: 1em;
+  text-shadow: 1px 0px 0px #530370 , 0px 1px 0px #530370, -1px 0px 0px #530370, 0px -1px 0px #530370, 1px 1px 1px #530370;
 }
 
 #content p::first-letter {
