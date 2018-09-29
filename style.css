@@ -3,7 +3,7 @@ Theme Name: Veiled Beyond Banality
 Theme URI: http://underscores.me/
 Author: Juan Montellano
 Author URI: https://veiled.xyz
-Description: Originally made for my personal site
+Description: Originally made for my personal site, I now bequeath this simple and dark theme to you, to use as you wish.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -23,7 +23,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 body {
   background: #0D0225 url(images/background.jpg);
   color: #FFF;
-  margin: 0 auto;
   font-family: 'Berkshire Swash', cursive;
   text-shadow: 1px 0px 0px #530370 , 0px 1px 0px #530370, -1px 0px 0px #530370, 0px -1px 0px #530370, 1px 1px 1px #530370;
 }
@@ -52,7 +51,7 @@ hr {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: x-small;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 0.5em;
   text-shadow: 1px 0px 0px #000 , 0px 1px 0px #000, -1px 0px 0px #000, 0px -1px 0px #000, 1px 1px 1px #000;
 }
 
@@ -68,7 +67,7 @@ hr {
 
 #wrapper {
   width: 70em;
-  margin: 0 auto;
+  margin: auto;
   margin-top: 2em;
 }
 
@@ -115,15 +114,15 @@ hr {
   text-shadow: 1px 0px 0px #290973 , 0px 1px 0px #290973, -1px 0px 0px #290973, 0px -1px 0px #290973, 1px 1px 1px #290973;
 }
 
-#header h1 {
-  margin: 0;
-}
-
 #content {
   background: #0D0225 url(images/background2.jpg);
   border: 2px solid #23032E;
   text-align: center;
   padding: 1em;
+}
+
+#content h1,#content h2,#content h4,#content h4 {
+  margin: 0;
 }
 
 #content p {
