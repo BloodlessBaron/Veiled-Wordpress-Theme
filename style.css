@@ -24,7 +24,7 @@ body {
   background: #0D0225 url(images/background.jpg);
   color: #FFF;
   font-family: 'Berkshire Swash', cursive;
-  text-shadow: 1px 0px 0px #530370 , 0px 1px 0px #530370, -1px 0px 0px #530370, 0px -1px 0px #530370, 1px 1px 1px #530370;
+  font-size: x-large;
 }
 
 a,a:visited {
@@ -46,10 +46,15 @@ hr {
   width: 15em;
 }
 
+input, select, textarea {
+  color: #FFF;
+  background: #0D0225 url(images/background2.jpg);
+  border: 2px solid #23032E;
+}
+
 .post-meta,.footer-copy {
   color: #595959;
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: x-small;
   text-align: center;
   padding-top: 0.5em;
   text-shadow: 1px 0px 0px #000 , 0px 1px 0px #000, -1px 0px 0px #000, 0px -1px 0px #000, 1px 1px 1px #000;
@@ -73,7 +78,7 @@ hr {
 
 #leftbar,#rightbar {
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: x-small;
+  font-size: large;
 }
 
 #leftbar ul,#rightbar ul {
@@ -125,9 +130,18 @@ hr {
   margin: 0;
 }
 
+#content h2 a {
+  border-bottom: none;
+}
+
+#content h2 a:hover {
+  border-bottom: 1px solid #FFF;
+}
+
 #content p {
   text-align: center;
   text-indent: 1em;
+  text-shadow: 1px 0px 0px #530370 , 0px 1px 0px #530370, -1px 0px 0px #530370, 0px -1px 0px #530370, 1px 1px 1px #530370;
 }
 
 #content p::first-letter {
