@@ -122,12 +122,13 @@ input, select, textarea {
 #content {
   background: #0D0225 url(images/background2.jpg);
   border: 2px solid #23032E;
-  text-align: center;
   padding: 1em;
 }
 
-#content h1,#content h2,#content h4,#content h4 {
-  margin: 0;
+#content h1,#content h2,#content h3,#content h4 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 #content h2 a {
@@ -139,7 +140,6 @@ input, select, textarea {
 }
 
 #content p {
-  text-align: center;
   text-indent: 1em;
   text-shadow: 1px 0px 0px #530370 , 0px 1px 0px #530370, -1px 0px 0px #530370, 0px -1px 0px #530370, 1px 1px 1px #530370;
 }
