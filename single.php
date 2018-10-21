@@ -13,8 +13,12 @@
 
         get_template_part( 'content', get_post_format() );
 
-      endwhile; endif;
+      endwhile; endif; ?>
 
+      <hr />
+      <a name="comments"></a>
+
+      <?php // Show comments form
       comments_template(); ?>
     </div>
     <div id="footer">
