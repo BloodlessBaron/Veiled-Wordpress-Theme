@@ -24,7 +24,7 @@ body {
   background: #0D0225 url(images/background.jpg);
   color: #FFF;
   font-family: 'Berkshire Swash', cursive;
-  font-size: x-large;
+  font-size: large;
 }
 
 a,a:visited {
@@ -55,6 +55,7 @@ input, select, textarea {
 .post-meta,.footer-copy {
   color: #595959;
   font-family: "Lucida Console", Monaco, monospace;
+  font-size: small;
   text-align: center;
   padding-top: 0.5em;
   text-shadow: 1px 0px 0px #000 , 0px 1px 0px #000, -1px 0px 0px #000, 0px -1px 0px #000, 1px 1px 1px #000;
@@ -78,7 +79,6 @@ input, select, textarea {
 
 #leftbar,#rightbar {
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: large;
 }
 
 #leftbar ul,#rightbar ul {
@@ -94,7 +94,7 @@ input, select, textarea {
 #leftbar {
   float: left;
   width: 20em;
-  margin-top: 11em;
+  margin-top: 8em;
   margin-right: 1em;
   text-align: right;
 }
@@ -102,14 +102,14 @@ input, select, textarea {
 #rightbar {
   float: left;
   width: 20em;
-  margin-top: 11em;
+  margin-top: 8em;
   margin-left: 1em;
   text-align: left;
 }
 
 #centerwrap {
   float: left;
-  width: 30em;
+  width: 25em;
 }
 
 #header {
@@ -122,12 +122,13 @@ input, select, textarea {
 #content {
   background: #0D0225 url(images/background2.jpg);
   border: 2px solid #23032E;
-  text-align: center;
   padding: 1em;
 }
 
-#content h1,#content h2,#content h4,#content h4 {
-  margin: 0;
+#content h1,#content h2,#content h3,#content h4 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 #content h2 a {
@@ -139,7 +140,6 @@ input, select, textarea {
 }
 
 #content p {
-  text-align: center;
   text-indent: 1em;
   text-shadow: 1px 0px 0px #530370 , 0px 1px 0px #530370, -1px 0px 0px #530370, 0px -1px 0px #530370, 1px 1px 1px #530370;
 }
@@ -150,6 +150,6 @@ input, select, textarea {
 
 #footer {
   clear: both;
-  width: 30em;
+  width: 25em;
   margin: 0 auto;
 }
