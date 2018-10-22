@@ -23,7 +23,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 body {
   background: #0D0225 url(images/background.jpg);
   color: #FFF;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Handlee', cursive;
   font-size: large;
 }
 
@@ -57,7 +57,6 @@ input, select, textarea {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: small;
   text-align: center;
-  padding-top: 0.5em;
   text-shadow: 1px 0px 0px #000 , 0px 1px 0px #000, -1px 0px 0px #000, 0px -1px 0px #000, 1px 1px 1px #000;
 }
 
@@ -127,8 +126,7 @@ input, select, textarea {
 
 #content h1,#content h2,#content h3,#content h4 {
   text-align: center;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0;
 }
 
 #content h2 a {
