@@ -72,8 +72,8 @@ input, select, textarea {
 }
 
 #wrapper {
-  width: 70em;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
   margin-top: 2em;
 }
 
@@ -93,7 +93,7 @@ input, select, textarea {
 
 #leftbar {
   float: left;
-  width: 20em;
+  width: 20%;
   margin-top: 8em;
   margin-right: 1em;
   text-align: right;
@@ -101,7 +101,7 @@ input, select, textarea {
 
 #rightbar {
   float: left;
-  width: 20em;
+  width: 20%;
   margin-top: 8em;
   margin-left: 1em;
   text-align: left;
@@ -109,7 +109,7 @@ input, select, textarea {
 
 #centerwrap {
   float: left;
-  width: 25em;
+  width: 50%;
 }
 
 #header {
