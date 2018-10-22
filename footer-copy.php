@@ -1,2 +1,2 @@
 
-&copy; 2018 Juan Montellano. Some rights are reserved.
+&copy; <?php echo date("Y"). ' ' . get_bloginfo('name'); ?>.
