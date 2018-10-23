@@ -48,13 +48,13 @@ hr {
 
 input, select, textarea {
   color: #FFF;
-  background: #0D0225 url(images/background2.jpg);
+  background: #0D0225;
   border: 2px solid #23032E;
 }
 
 .post-meta,.footer-copy {
   color: #595959;
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: Verdana, Geneva, sans-serif;
   font-size: small;
   text-align: center;
   text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000, 1px 1px 1px #000;
@@ -74,10 +74,6 @@ input, select, textarea {
   width: 100%;
   margin: 0 auto;
   margin-top: 2em;
-}
-
-#leftbar,#rightbar {
-  font-family: "Lucida Console", Monaco, monospace;
 }
 
 #leftbar ul,#rightbar ul {
