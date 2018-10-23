@@ -55,12 +55,9 @@ input, select, textarea {
 
 .post-meta a,.post-meta a:visited,.footer-copy a,.footer-copy a:visited {
   color: #595959;
+  text-decoration: none;
   border-bottom: none;
   text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000, 1px 1px 1px #000;
-}
-
-.post-meta a:hover,.footer-copy a:hover {
-  border-bottom: 1px solid #FFF;
 }
 
 #wrapper {
@@ -70,13 +67,13 @@ input, select, textarea {
 }
 
 
-#header a,#header a:visited,#content a,#content a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
+#header a,#header a:visited,#content h2 a,#content h2 a:visited,.post-content a,.post-content a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
   color: #FFF;
   text-decoration: none;
   text-shadow: 1px 0 0 #0A2172, 0 1px 0 #0A2172, -1px 0 0 #0A2172, 0 -1px 0 #0A2172, 1px 1px 1px #0A2172;
 }
 
-#header a:hover,#content a:hover,#leftbar a:hover,#rightbar a:hover {
+#header a:hover,#content a:hover,#leftbar a:hover,#rightbar a:hover,.post-meta a:hover,.footer-copy a:hover {
   border-bottom: 1px dotted #C0C0C0;
 }
 
@@ -127,14 +124,6 @@ input, select, textarea {
 #content h1,#content h2,#content h3,#content h4 {
   text-align: center;
   margin-bottom: 0;
-}
-
-#content h2 a {
-  border-bottom: none;
-}
-
-#content h2 a:hover {
-  border-bottom: 1px solid #FFF;
 }
 
 #content p {
