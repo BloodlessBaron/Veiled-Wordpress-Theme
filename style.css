@@ -57,7 +57,7 @@ input, select, textarea {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: small;
   text-align: center;
-  text-shadow: 1px 0px 0px #000 , 0px 1px 0px #000, -1px 0px 0px #000, 0px -1px 0px #000, 1px 1px 1px #000;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000, 1px 1px 1px #000;
 }
 
 .post-meta a,.post-meta a:visited {
