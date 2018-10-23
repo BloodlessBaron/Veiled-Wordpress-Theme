@@ -3,8 +3,8 @@
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
   </div>
   <div class="post-meta">
-    By <?php the_author(); ?> on <?php the_date(); ?><br />
-    Post has <a href="<?php the_permalink(); ?>#comments"><?php comments_number( 'no responses', 'one response', '% responses' ); ?></a>.
+    By <?php the_author(); ?> on <?php the_date(); ?>.<br />
+    This post has <a href="<?php the_permalink(); ?>#comments"><?php comments_number( 'no responses', 'one response', '% responses' ); ?></a>.
   </div>
   <div class="post-content">
     <?php the_content(); ?>
