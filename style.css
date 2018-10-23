@@ -1,23 +1,18 @@
 /*!
 Theme Name: Veiled Beyond Banality
-Theme URI: http://underscores.me/
-Author: Juan Montellano
+Theme URI: https://github.com/BloodlessBaron/Veiled-Wordpress-Theme
+Author: John Barner
 Author URI: https://veiled.xyz
 Description: Originally made for my personal site, I now bequeath this simple and dark theme to you, to use as you wish.
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
+Version: 0.5.0
+License: The Unlicense
+License URI: https://github.com/BloodlessBaron/Veiled-Wordpress-Theme/blob/master/LICENSE
 Text Domain: veiled
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+Tags: dark
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-Veiled Beyond Banality is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+This theme is licensed under the The Unlicense, a license with no conditions whatsoever
+which dedicates works to the public domain. Unlicensed works, modifications, and
+larger works may be distributed under different terms and without source code.
 */
 
 body {
