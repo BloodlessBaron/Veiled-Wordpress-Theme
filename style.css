@@ -27,13 +27,6 @@ body {
   font-size: large;
 }
 
-a,a:visited {
-  color: #FFF;
-  text-decoration: none;
-  border-bottom: 1px dotted #C0C0C0;
-  text-shadow: 1px 0 0 #0A2172, 0 1px 0 #0A2172, -1px 0 0 #0A2172, 0 -1px 0 #0A2172, 1px 1px 1px #0A2172;
-}
-
 h1 a, h1 a:visited {
   border-bottom: none;
 }
@@ -74,6 +67,17 @@ input, select, textarea {
   width: 100%;
   margin: 0 auto;
   margin-top: 2em;
+}
+
+
+#header a,#header a:visited,#content a,#content a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
+  color: #FFF;
+  text-decoration: none;
+  text-shadow: 1px 0 0 #0A2172, 0 1px 0 #0A2172, -1px 0 0 #0A2172, 0 -1px 0 #0A2172, 1px 1px 1px #0A2172;
+}
+
+#header a:hover,#content a:hover,#leftbar a:hover,#rightbar a:hover {
+  border-bottom: 1px dotted #C0C0C0;
 }
 
 #leftbar ul,#rightbar ul {
@@ -140,6 +144,14 @@ input, select, textarea {
 
 #content p::first-letter {
   font-size: 2em;
+}
+
+#footer-widgets li {
+  list-style-type: none;
+}
+
+#footer-widgets {
+  text-align: center;
 }
 
 #footer {
