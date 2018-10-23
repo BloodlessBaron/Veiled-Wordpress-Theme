@@ -17,6 +17,12 @@ function sidebars() {
 	);
 	register_sidebar( $args );
 
+	$args = array(
+		'id'            => 'footer',
+		'name'          => __( 'Footer', 'text_domain' ),
+	);
+	register_sidebar( $args );
+
 }
 add_action( 'widgets_init', 'sidebars' );
 
