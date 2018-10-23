@@ -115,7 +115,7 @@ input, select, textarea {
   width: auto;
   text-align: center;
   margin-bottom: 1em;
-  text-shadow: 1px 0px 0px #290973 , 0px 1px 0px #290973, -1px 0px 0px #290973, 0px -1px 0px #290973, 1px 1px 1px #290973;
+  text-shadow: 1px 0 0 #290973 , 0 1px 0 #290973, -1px 0 0 #290973, 0 -1px 0 #290973, 1px 1px 1px #290973;
 }
 
 #content {
