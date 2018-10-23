@@ -160,10 +160,7 @@ input, select, textarea {
 }
 
 #content th,#content td {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-right: 0.5em;
-  padding-left: 1em;
+  padding: 1em 0.5em 1em 1em;
 }
 
 #content th {
