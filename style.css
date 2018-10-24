@@ -16,7 +16,7 @@ larger works may be distributed under different terms and without source code.
 */
 
 body {
-  background: #0D0225 url(images/background.jpg);
+  background: #0D0225 url(images/site-background.png);
   color: #FFF;
   font-family: 'Handlee', cursive;
   font-size: large;
@@ -32,6 +32,13 @@ input, select, textarea {
   border: 2px solid #23032E;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
 #content cite,#content dl,.post-meta,.footer-copy {
   color: #595959;
   font-family: Verdana, Geneva, sans-serif;
@@ -41,6 +48,20 @@ input, select, textarea {
 .post-meta,.footer-copy {
   font-size: small;
   text-align: center;
+}
+
+.alignleft {
+  float: left;
+  margin: 1em;
+}
+
+.alignright {
+  float: right;
+  margin: 1em;
+}
+
+.clear {
+  clear: both;
 }
 
 #content dl a,#content dl a:visited,.post-meta a,.post-meta a:visited,.footer-copy a,.footer-copy a:visited {
@@ -55,11 +76,11 @@ input, select, textarea {
 }
 
 
-#header a,#header a:visited,#content h2 a,#content h2 a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
+#header a,#header a:visited,#content h1 a,#content h1 a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
   text-decoration: none;
 }
 
-#header a,#header a:visited,#content h2 a,#content h2 a:visited,.post-content a,.post-content a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
+#header a,#header a:visited,#content h1 a,#content h1 a:visited,.post-content a,.post-content a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited,#content .nav-previous a,#content .nav-next a {
   color: #FFF;
   text-shadow: 1px 0 0 #0A2172, 0 1px 0 #0A2172, -1px 0 0 #0A2172, 0 -1px 0 #0A2172, 1px 1px 1px #0A2172;
 }
@@ -107,14 +128,33 @@ input, select, textarea {
 }
 
 #content {
-  background: #0D0225 url(images/background2.jpg);
+  background: #0D0225 url(images/content-background.png);
   border: 2px solid #23032E;
+  overflow: hidden;
+}
+
+#content div {
+  max-width: 100%;
+}
+
+#content p,#content dl,#content cite,#content pre {
+  padding: 0 1em 0 1em;
+}
+
+#content .post-wrapper {
+  padding: 2em 0 2em 0;
+}
+
+#content .sticky {
   padding: 1em;
+  border: 2px solid #07102F;
+  background: #130730 url(images/sticky-background.png);
 }
 
 #content h1,#content h2,#content h3,#content h4,#content h5,#content h6 {
   text-align: center;
   margin-bottom: 0;
+  clear: both;
 }
 
 #content strong {
@@ -129,8 +169,25 @@ input, select, textarea {
   text-align: center;
   background: #15011C;
   width: 80%;
+  border-top: thin solid #530370;
+  border-bottom: thin solid #530370;
+  font-style: italic;
   margin: auto;
   padding: 1em;
+  position: relative;
+}
+
+#content blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 8em;
+    position: absolute;
+    left: -40px;
+    top: -40px;
+}
+
+#content blockquote cite:before {
+    content: "\2014 \2009";
 }
 
 #content code,#content kbd {
@@ -194,6 +251,18 @@ input, select, textarea {
   font-weight: bold;
   color: #530370;
   text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff, 1px 1px 1px #fff;
+}
+
+#content .pagination {
+  text-align: center;
+}
+
+#content .nav-previous {
+  text-align: left;
+}
+
+#content .nav-next {
+  text-align: right;
 }
 
 #footer-widgets li {
