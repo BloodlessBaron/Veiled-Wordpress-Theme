@@ -18,17 +18,13 @@ larger works may be distributed under different terms and without source code.
 body {
   background: #0D0225 url(images/site-background.png);
   color: #FFF;
-  font-family: 'Handlee', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: large;
-}
-
-h1 a, h1 a:visited {
-  border-bottom: none;
 }
 
 input, select, textarea {
   color: #FFF;
-  background: none;
+  background: #15011C;
   border: 2px solid #23032E;
 }
 
@@ -39,16 +35,15 @@ img {
   margin: 0;
 }
 
-#content cite,#content dl,.post-meta,.footer-copy {
-  color: #595959;
-  font-family: Verdana, Geneva, sans-serif;
-  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000, 1px 1px 1px #000;
-}
+/* Post meta and footer styles */
 
-.post-meta,.footer-copy {
-  font-size: small;
+.post-meta,.footer-copy,.post-meta a,.post-meta a:visited,.footer-copy a,.footer-copy a:visited {
+  color: #595959;
   text-align: center;
 }
+
+/* Multi-use align styles
+   These are used on multiple element types throughout the site */
 
 .alignleft {
   float: left;
@@ -64,10 +59,8 @@ img {
   clear: both;
 }
 
-#content dl a,#content dl a:visited,.post-meta a,.post-meta a:visited,.footer-copy a,.footer-copy a:visited {
-  color: #595959;
-  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000, 1px 1px 1px #000;
-}
+/* Whole site wrapper
+   This surrounds everything */
 
 #wrapper {
   width: 100%;
@@ -75,29 +68,22 @@ img {
   margin-top: 2em;
 }
 
+/* Site header styles */
 
-#header a,#header a:visited,#content h1 a,#content h1 a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
-  text-decoration: none;
+#header {
+  width: auto;
+  text-align: center;
+  margin-bottom: 1em;
+  text-shadow: 1px 0 0 #290973, 0 1px 0 #290973, -1px 0 0 #290973, 0 -1px 0 #290973, 1px 1px 1px #290973;
 }
 
-#header a,#header a:visited,#content h1 a,#content h1 a:visited,.post-content a,.post-content a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited,#content .nav-previous a,#content .nav-next a {
+#header a,#header a:visited {
   color: #FFF;
+  text-decoration: none;
   text-shadow: 1px 0 0 #0A2172, 0 1px 0 #0A2172, -1px 0 0 #0A2172, 0 -1px 0 #0A2172, 1px 1px 1px #0A2172;
 }
 
-#header a:hover,#leftbar a:hover,#rightbar a:hover {
-  border-bottom: 1px dotted #C0C0C0;
-}
-
-#leftbar ul,#rightbar ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#leftbar a .nav,#rightbar a .nav {
-  text-shadow: none;
-  color: #FFF;
-}
+/* Left/right sidebar styles */
 
 #leftbar {
   float: left;
@@ -115,22 +101,43 @@ img {
   text-align: left;
 }
 
+#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
+  color: #FFF;
+  text-shadow: 1px 0 0 #0A2172, 0 1px 0 #0A2172, -1px 0 0 #0A2172, 0 -1px 0 #0A2172, 1px 1px 1px #0A2172;
+}
+
+#leftbar ul,#rightbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#leftbar .sub-menu {
+  padding-right: 1em;
+}
+
+#leftbar .current-menu-item a {
+  font-weight: bold;
+  color: #530370;
+  text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff, 1px 1px 1px #fff;
+}
+
+/* Content */
+
+/* This wraps all content in the center, including the header and footer */
 #centerwrap {
   float: left;
   width: 50%;
-}
-
-#header {
-  width: auto;
-  text-align: center;
-  margin-bottom: 1em;
-  text-shadow: 1px 0 0 #290973, 0 1px 0 #290973, -1px 0 0 #290973, 0 -1px 0 #290973, 1px 1px 1px #290973;
 }
 
 #content {
   background: #0D0225 url(images/content-background.png);
   border: 2px solid #23032E;
   overflow: hidden;
+}
+
+#content h1 a,#content h1 a:visited,#content .post-content a,#content .post-content a:visited {
+  color: #FFF;
+  text-shadow: 1px 0 0 #0A2172, 0 1px 0 #0A2172, -1px 0 0 #0A2172, 0 -1px 0 #0A2172, 1px 1px 1px #0A2172;
 }
 
 #content div {
@@ -141,13 +148,15 @@ img {
   padding: 0 1em 0 1em;
 }
 
+/* This wraps each post */
 #content .post-wrapper {
   padding: 2em 0 2em 0;
 }
 
 #content .sticky {
   padding: 1em;
-  border: 2px solid #07102F;
+  border-top: 2px solid #07102F;
+  border-bottom: 2px solid #07102F;
   background: #130730 url(images/sticky-background.png);
 }
 
@@ -155,10 +164,6 @@ img {
   text-align: center;
   margin-bottom: 0;
   clear: both;
-}
-
-#content strong {
-  text-shadow: 1px 0 0 #530370, 0 1px 0 #530370, -1px 0 0 #530370, 0 -1px 0 #530370, 1px 1px 1px #530370;
 }
 
 #content hr {
@@ -200,6 +205,14 @@ img {
 
 #content code {
   background: #000;
+}
+
+#content dt {
+  text-transform: capitalize;
+}
+
+#content dt,#content dd {
+  font-variant: small-caps;
 }
 
 #content kbd {
@@ -253,6 +266,13 @@ img {
   text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff, 1px 1px 1px #fff;
 }
 
+/* Pagination */
+
+#content .nav-previous a,#content .nav-next a,#content .nav-previous a:visited,#content .nav-next a:visited {
+  color: #FFF;
+  text-shadow: 1px 0 0 #0A2172, 0 1px 0 #0A2172, -1px 0 0 #0A2172, 0 -1px 0 #0A2172, 1px 1px 1px #0A2172;
+}
+
 #content .nav-previous {
   text-align: left;
 }
@@ -261,16 +281,23 @@ img {
   text-align: right;
 }
 
+/* Footer */
+
+#footer {
+  clear: both;
+  width: 25em;
+  margin: 0 auto;
+}
+
+#footer,#footer a,#footer a:visited {
+  color: #595959;
+  text-align: center;
+}
+
 #footer-widgets li {
   list-style-type: none;
 }
 
 #footer-widgets {
   text-align: center;
-}
-
-#footer {
-  clear: both;
-  width: 25em;
-  margin: 0 auto;
 }
