@@ -1,5 +1,6 @@
 <div class="post-wrapper">
 <div id="post-<?php the_ID(); ?>" <?php post_class( 'class-name' ); ?>>
+  <div class="featured-image"><?php the_post_thumbnail(); ?></div>
   <div class="post-title">
     <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
   </div>

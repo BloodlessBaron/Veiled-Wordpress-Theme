@@ -27,3 +27,6 @@ function sidebars() {
 add_action( 'widgets_init', 'sidebars' );
 
 }
+
+// Add featured image support
+add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
