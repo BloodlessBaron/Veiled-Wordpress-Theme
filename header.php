@@ -13,7 +13,7 @@
     }?>
   </title>
 
-  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
 
   <?php wp_head(); ?>
