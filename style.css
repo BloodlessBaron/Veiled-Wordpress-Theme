@@ -145,6 +145,11 @@ img {
   max-width: 100%;
 }
 
+#content .featured-image img {
+  width: 100%;
+  height: auto;
+}
+
 #content p,#content dl,#content cite,#content pre {
   padding: 0 1em 0 1em;
 }
