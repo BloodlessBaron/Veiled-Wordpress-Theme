@@ -55,11 +55,11 @@ input, select, textarea {
 }
 
 
-#header a,#header a:visited,#content h2 a,#content h2 a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
+#header a,#header a:visited,#content h1 a,#content h1 a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
   text-decoration: none;
 }
 
-#header a,#header a:visited,#content h2 a,#content h2 a:visited,.post-content a,.post-content a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
+#header a,#header a:visited,#content h1 a,#content h1 a:visited,.post-content a,.post-content a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
   color: #FFF;
   text-shadow: 1px 0 0 #0A2172, 0 1px 0 #0A2172, -1px 0 0 #0A2172, 0 -1px 0 #0A2172, 1px 1px 1px #0A2172;
 }
@@ -110,6 +110,23 @@ input, select, textarea {
   background: #0D0225 url(images/background2.jpg);
   border: 2px solid #23032E;
   padding: 1em;
+}
+
+#content .post-wrapper {
+  padding: 2em 0 2em 0;
+}
+
+#content .alignleft {
+  float: left;
+}
+
+#content .alignright {
+  float: right;
+}
+
+#content .sticky {
+  padding: 1em;
+  background: #130730;
 }
 
 #content h1,#content h2,#content h3,#content h4,#content h5,#content h6 {
@@ -208,4 +225,8 @@ input, select, textarea {
   clear: both;
   width: 25em;
   margin: 0 auto;
+}
+
+.clear {
+  clear: both;
 }
