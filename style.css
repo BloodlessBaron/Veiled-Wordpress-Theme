@@ -16,7 +16,7 @@ larger works may be distributed under different terms and without source code.
 */
 
 body {
-  background: #0D0225 url(images/background.jpg);
+  background: #0D0225 url(images/site-background.png);
   color: #FFF;
   font-family: 'Handlee', cursive;
   font-size: large;
@@ -59,7 +59,7 @@ input, select, textarea {
   text-decoration: none;
 }
 
-#header a,#header a:visited,#content h1 a,#content h1 a:visited,.post-content a,.post-content a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited {
+#header a,#header a:visited,#content h1 a,#content h1 a:visited,.post-content a,.post-content a:visited,#leftbar a,#leftbar a:visited,#rightbar a,#rightbar a:visited,#content .nav-previous a,#content .nav-next a {
   color: #FFF;
   text-shadow: 1px 0 0 #0A2172, 0 1px 0 #0A2172, -1px 0 0 #0A2172, 0 -1px 0 #0A2172, 1px 1px 1px #0A2172;
 }
@@ -107,7 +107,7 @@ input, select, textarea {
 }
 
 #content {
-  background: #0D0225 url(images/background2.jpg);
+  background: #0D0225 url(images/content-background.png);
   border: 2px solid #23032E;
   padding: 1em;
 }
@@ -126,7 +126,8 @@ input, select, textarea {
 
 #content .sticky {
   padding: 1em;
-  background: #130730;
+  border: 2px solid #07102F;
+  background: #130730 url(images/sticky-background.png);
 }
 
 #content h1,#content h2,#content h3,#content h4,#content h5,#content h6 {
@@ -211,6 +212,10 @@ input, select, textarea {
   font-weight: bold;
   color: #530370;
   text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff, 1px 1px 1px #fff;
+}
+
+#content .pagination {
+  text-align: center;
 }
 
 #footer-widgets li {
