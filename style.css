@@ -253,10 +253,6 @@ img {
   text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff, 1px 1px 1px #fff;
 }
 
-#content .pagination {
-  text-align: center;
-}
-
 #content .nav-previous {
   text-align: left;
 }
