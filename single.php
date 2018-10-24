@@ -1,7 +1,14 @@
-<?php get_header(); ?>
-      <hr />
-      <a name="comments"></a>
+<?php get_header();
+get_header();
+    if ( have_posts() ) :
+        while ( have_posts() ) :
+            the_post();
+            get_template_part( 'content', get_post_format() );
+        endwhile; // end while
+    endif; // end if ?>
 
-      <?php // Show comments form
-      comments_template(); ?>
-<?php get_footer(); ?>
+    <hr />
+    <a name="comments"></a>
+
+    <?php comments_template(); // Show comments form
+get_footer(); ?>
